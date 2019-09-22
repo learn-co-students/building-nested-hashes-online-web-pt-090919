@@ -9,3 +9,11 @@ def second_challenge
 
   
 end
+
+def second_challenge
+	it "fill out the empty hashes that are the values of the family name keys with the appropriate key/value pairs" do 
+    (second_challenge[:montague].keys)=([:patriarch, :matriarch, :hero, :hero_friends])
+    (second_challenge[:capulet].keys)=([:patriarch, :matriarch, :heroine, :heroine_friends])
+    (second_challenge[:montague].values)=([{}, {}, {}, []])
+    (second_challenge[:capulet].values).)=([{}, {}, {}, []])
+end
