@@ -9,4 +9,3 @@ describe "#bonus" do
 
   end
 end
-end
